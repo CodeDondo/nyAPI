@@ -213,4 +213,4 @@ const decodeToken = async (token) => {
     });
 }
 
-export { Authenticate, Authorrize, getUserFronmToken }
+export { Authenticate, Authorize, getUserFromToken }
