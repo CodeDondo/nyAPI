@@ -87,9 +87,9 @@ const Authenticate = async (req, res) => {
     }
 } 
 
-@parem {*} req
+@param {*} req
 @param {*} res
-@parem {*} next
+@param {*} next
 
 const Authorize = async (req, res, next ) => {
     const bearerHeader = req.headers["authorization"]
@@ -180,8 +180,8 @@ const Authorize = async (req, res, next ) => {
     })
 }
 
-@parem {*} req
-@parem {*} res
+@param {*} req
+@param {*} res
 @returns
 
 const getUserFromToken = async (req, res) => {
@@ -200,7 +200,7 @@ const getUserFromToken = async (req, res) => {
     }
 }
 
-@parem {*} token
+@param {*} token
 
 const decodeToken = async (token) => {
     jwt.verify(token, process.env.TOKEN_REFRESH_KEY, (err, decoded) => {
