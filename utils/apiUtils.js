@@ -17,7 +17,7 @@ export const getQueryOrder = query => {
 }
 
 @param {Object}
-@returns {number}
+@returns {Number}
 
 export const getQueryLimit = query => {
     const { limit } = query
