@@ -10,10 +10,10 @@ export const NavBar = () => {
                         <NavLink to="/">Forside</NavLink>
                     </li>
                     <li>
-                        <NavLink to="boligerTilSalg">Boliger til salg</NavLink>
+                        <NavLink to="boligPage">Boliger til salg</NavLink>
                     </li>
                     <li>
-                        <NavLink to="login">Login</NavLink>
+                        <NavLink to="loginPage">Login</NavLink>
                     </li>
                 </ul>
             </nav>
