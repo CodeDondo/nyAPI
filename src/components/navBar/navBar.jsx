@@ -1,7 +1,7 @@
 import { NavBarStyled } from './navBarStyled';
 import { NavLink } from 'react-router-dom';
 
-const NavBar = () => {
+export const NavBar = () => {
     return (
         <NavBarStyled>
             <nav>
